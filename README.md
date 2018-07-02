@@ -1,5 +1,5 @@
 # Noobot.Toolbox
-[![Build status](https://ci.appveyor.com/api/projects/status/n9rdym0uo7f1c65m?svg=true)](https://ci.appveyor.com/project/Workshop2/noobot-toolbox) [![Nuget.org](https://img.shields.io/nuget/v/Noobot.Toolbox.svg?style=flat)](https://www.nuget.org/packages/Noobot.Toolbox) [![NuGet](https://img.shields.io/nuget/dt/Noobot.Toolbox.svg)](https://www.nuget.org/packages/Noobot.Toolbox)
+[![Build status](https://ci.appveyor.com/api/projects/status/vr2cw9vkqb3m5cd2?svg=true)](https://ci.appveyor.com/project/ebrucucen/noobot-toolbox) [![Nuget.org](https://img.shields.io/nuget/v/Noobot.Toolbox.svg?style=flat)](https://www.nuget.org/packages/Noobot.Toolbox) [![NuGet](https://img.shields.io/nuget/dt/Noobot.Toolbox.svg)](https://www.nuget.org/packages/Noobot.Toolbox)
 
 A collection of usefull tools and extensions to use with Noobot.Core
 
