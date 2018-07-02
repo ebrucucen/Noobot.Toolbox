@@ -1,4 +1,4 @@
-version: 3.1.{build}
+version: 3.1.6.{build}
 skip_tags: true
 image: Visual Studio 2017 Preview
 configuration: Release
@@ -25,7 +25,7 @@ test: off
 deploy:
 - provider: GitHub
   auth_token:
-    secure: 8t4+xbVlkXA/FY3516ThrMibGxfCT7ZcSwyZw7KNwUlCH08KMPtznY2QphEn1n/z
+    secure: C84vi0K9LH3m0DN0dITWoJ09qb3sAcyqqkHsWWUE8EAlC2Xj7p9G+VcPVDKqkH+L
   artifact: /.*\.nupkg/
   draft: true
   on:
