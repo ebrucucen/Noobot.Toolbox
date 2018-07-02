@@ -9,9 +9,16 @@ dotnet_csproj:
   version: '{version}'
   package_version: '{version}'
 
-before_build: dotnet restore
+before_build: 
+- ps: >-
+    dotnet restore
+    
+    nuget restore
+
 build: off
+
 build_script: dotnet build -c "Release"
+
 after_build: dotnet pack ".\src\Noobot.Toolbox\Noobot.Toolbox.csproj" --no-build --no-restore --output "..\..\nupkgs" -C "Release"
 
 test: off
@@ -23,4 +30,4 @@ deploy:
   artifact: /.*\.nupkg/
   draft: true
   on:
-    branch: master
+    branch: build_fix
