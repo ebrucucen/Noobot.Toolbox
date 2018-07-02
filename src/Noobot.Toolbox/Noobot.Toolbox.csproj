@@ -2,15 +2,16 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
-    <Version>1.0.1</Version>
+	  <PackageId>Noobot.Toolbox_Demo</PackageId>
+	  <Version>1.0.1</Version>
     <AssemblyVersion>1.0.0.1</AssemblyVersion>
     <FileVersion>1.0.0.1</FileVersion>
-    <Description>Noobot Toolkit gives you bonus middleware and plugins to use while developing your Noobot (Slack Bot).</Description>
-    <PackageProjectUrl>http://github.com/noobot/Noobot.Toolkit/</PackageProjectUrl>
+    <Description>Demo version of the fork of Noobot Toolkit gives you bonus middleware and plugins to use while developing your Noobot (Slack Bot).</Description>
+    <PackageProjectUrl>http://github.com/ebrucucen/Noobot.Toolkit/</PackageProjectUrl>
     <PackageTags>noobot toolkit noobot.core Slack API SlackApi SlackConnector bot slackbot</PackageTags>
     <PackageIconUrl>http://github.com/noobot/noobot/</PackageIconUrl>
     <PackageLicenseUrl>https://github.com/noobot/noobot/blob/master/LICENSE</PackageLicenseUrl>
-    <RepositoryUrl>http://github.com/noobot/Noobot.Toolkit/</RepositoryUrl>
+    <RepositoryUrl>http://github.com/ebrucucen/Noobot.Toolkit/</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
