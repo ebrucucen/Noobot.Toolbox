@@ -23,6 +23,9 @@ after_build: dotnet pack ".\src\Noobot.Toolbox\Noobot.Toolbox.csproj" --no-build
 
 test: off
 
+artifacts:
+- path: nupkgs\*.nupkg
+
 deploy:
 - provider: GitHub
   auth_token:
